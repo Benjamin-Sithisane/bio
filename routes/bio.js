@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('bio', { bioName: 'Benjamin Sithisane',
+    res.render('bio', { bioName: 'Benjamin Sith',
                           age: 26,
                           phoneNumber: '8176571629',
                           email: 'bsithisane@gmail.com'});
